@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    color: white
+}
+
+h2 {
+    margin-bottom: 5%
+}
+
+
+body {
+    background: #011827ef;
+    overflow-x: hidden;  
+}
+
+.card-text {
+    color: black;
+}
+
+.card-body {
+    background: rgba(36, 36, 34, 0.568);
+}
+
+.card-header {
+    background: rgba(0, 45, 192, 0.877);
+}
+
+.boxes {
+    background: white;
+    border: 1px solid
+}
+
+.navMenu {
+    background: url("../img/pics/network.jpg");
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    padding: 1% 10%;
+    width: 100vw;
+    height: 100vh
+}
+
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1 {
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 15px
+}
+
+.title h3 {
+    font-weight: 50;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.section {
+    margin: 10% 20%;
+    text-align: center;
+    line-height: 2em
+}
+
+/* meet the team */
+
+.carousel-item img {
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.carousel-item h4 {
+    font-weight: bold;
+    letter-spacing: 3px
+}
+
+.carousel-item p {
+    letter-spacing: 2px;
+    font-style: italic
+}
+
+/* footer */
+
+#footer {
+    background: #011827;
+    flex-grow: 1;
+    margin-top: 0;
+    color: #fff;
+    border: .5px solid
+}
+
+.footer {
+    margin: 5% 30%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.social i {
+    font-size: 35px
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center
+}
